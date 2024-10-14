@@ -2,30 +2,24 @@
 body{
     margin: 0;
 }
-.forma1{
-    background-color: purple;
-    width: 250px;
-    height: 250px;
-    /*font-size: 2rem;*/
-    padding: 125px 50px 25px 75px;
-    border:12px solid yellow;
-    margin: 25px 12px;
-
+.contenedor{
+    background-color: rgba(122,123,123,0.2);
 }
-.span1{
-    background-color: aqua;/*Todo funciona menos el with y el height*/
-    color: white;
-    padding: 25px;
-    border: 15px solid orange;
+.uno{
+    background-color: red;
+    width: 49%;
+    display: inline-block;
 }
-.span2{
+.dos{
     background-color: green;
-    color: white;
-    width: 350px;
+    width: 49%;
+    display: inline-block;
 }
-/*.forma2{
-    background-color: rgb(221, 90, 112);
-    width: 100vw;
-    height: 100vh;
-    color: white;
+.tres{
+    background-color: orange;
+    display: inline;
+}
+.cuatro{
+    background-color: yellow;
+    display: inline;
 }
