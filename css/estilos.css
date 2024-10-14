@@ -1,25 +1,17 @@
-
-body{
-    margin: 0;
+*{
+    box-sizing: border-box;
+    margin:0;
 }
 .contenedor{
-    background-color: rgba(122,123,123,0.2);
+    display: flex;
+    background-color: orange;
+    padding: 25px;
 }
 .uno{
-    background-color: red;
-    width: 49%;
-    display: inline-block;
+    background-color: green;
+    padding: 25px;
 }
 .dos{
-    background-color: green;
-    width: 49%;
-    display: inline-block;
-}
-.tres{
-    background-color: orange;
-    display: inline;
-}
-.cuatro{
     background-color: yellow;
-    display: inline;
+    padding: 25px;
 }
